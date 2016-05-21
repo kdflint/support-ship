@@ -3,7 +3,7 @@ Anything related to implementation or migration of support sites
 
 Site theme demo: http://www.mojo-themes.com/item/docs-responsive-documentation-wordpress-theme/demo/
 
-Added the following to .../wp-content/themes/docs/templates/head.php, just inside `</head>`
+Added the following scripts to .../wp-content/themes/docs/templates/head.php, just inside `</head>`
 
  
 ```
@@ -34,4 +34,10 @@ Added the following to .../wp-content/themes/docs/templates/head.php, just insid
     });
   });
   </script>
+```
+
+To same file, add the following resource imports
+
+```
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 ```
