@@ -35,9 +35,3 @@ Added the following scripts to .../wp-content/themes/docs/templates/head.php, ju
   });
   </script>
 ```
-
-To same file, add the following resource imports
-
-```
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-```
